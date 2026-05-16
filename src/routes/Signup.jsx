@@ -30,7 +30,7 @@ export default function Signup() {
 
     // OPTIONAL: auto-add user to an org
     // Replace with your org ID
-    const acmeOrgId = 'YOUR_ACME_ORG_UUID'
+    const acmeOrgId = '7e0c6802-d434-41e2-888c-f6b52c16568b'
 
     await supabase.from('user_organizations').insert({
       user_id: data.user.id,
